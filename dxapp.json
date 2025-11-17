@@ -600,10 +600,10 @@
     "project": "CONTRIBUTE"
   },
   "regionalOptions": {
-    "*": {
+    "azure:westus": {
       "systemRequirements": {
-        "*": {
-          "instanceType": "mem2_ssd1_x4"
+        "main": {
+          "instanceType": "azure:mem2_ssd1_x4"
         }
       }
     }
